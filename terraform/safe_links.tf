@@ -1,8 +1,8 @@
-hcl
 resource "azuread_group" "protected_users" {
   display_name     = "Super-Safety-Shield-Users"
   security_enabled = true
 }
+
 output "safe_links_policy_configuration" {
   value = {
     name                        = "Super Safety Shield Policy"
