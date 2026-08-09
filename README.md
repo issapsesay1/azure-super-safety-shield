@@ -20,3 +20,7 @@ Instead of manual portal configuration, this architecture relies entirely on aut
 This evidence verifies that the GitHub Actions automation runner securely logs into the Microsoft Cloud tenant and provisions the target resources cleanly via Terraform.
 Run Verified: Update README.md #9 (Status: Success)
 ![Update README.md #9 Pipeline Success](./images/pipeline-success.png)
+
+### 🛡️ 2. Programmatic Perimeter Injection (User Group Verification)
+This verification snapshot confirms that the infrastructure-as-code automation successfully provisioned the security baseline target group directly inside the live Azure directory tenant.
+![Active User Group Perimeter](./images/shield-link.png)
