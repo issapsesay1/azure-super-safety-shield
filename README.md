@@ -13,3 +13,10 @@ Instead of manual portal configuration, this architecture relies entirely on aut
 - **Infrastructure Framework:** Terraform (HashiCorp AzureAD)
 - **Target Environments:** Microsoft Defender for Office 365
 - **Security Framework Alignment:** NIST SP 800-207 (Zero Trust Email Posture)
+
+## Verification & Operational Proof
+
+### 1. Automated Pipeline Deployment Success
+This evidence verifies that the GitHub Actions automation runner securely logs into the Microsoft Cloud tenant and provisions the target resources cleanly via Terraform.
+Run Verified: Update README.md #9 (Status: Success)
+![Update README.md #9 Pipeline Success](./images/pipeline-success.png)
